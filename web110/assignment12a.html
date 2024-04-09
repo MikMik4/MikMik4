@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Assignment 12</title><link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+    <style> 
+    body 
+    { background-color:olivedrab;
+    }
+  </style>
+  <body>
+   <h1 id="heading"; style=" color:darkgreen;margin-left:30px;"></h1>
+    <script>document.getElementById("heading").innerHTML = "Assignment 12 - Summary by Mikah Taylor";</script>
+    <p id="date"></p>
+    <script>
+      document.getElementById("date").innerHTML = Date();
+    </script>
+    <canvas id="example1" width="360" height="240">
+      This text is displayed if your browser does not support HTML5 Canvas.
+    </canvas>
+    <canvas id="example" width="360" height="240">
+  This text is displayed if your browser does not support HTML5 Canvas.
+</canvas>
+
+<script>
+  var example = document.getElementById("example");
+  var context = example.getContext("2d");
+
+  // Set stroke and fill to linen
+  context.strokeStyle = "linen";
+  context.fillStyle = "linen";
+
+  // Select font, alignment, draw text, and fill characters
+  context.font = "36px sans-serif";
+  context.textAlign="center";
+  context.strokeText("Mikah Taylor", 160, 50);
+  context.fillText("Mikah Taylor", 160, 50);
+</script>
+    <canvas id="example" width="360" height="240">
+  This text is displayed if your browser does not support HTML5 Canvas.
+</canvas>
+
+<script>
+  var example = document.getElementById("example");
+  var context = example.getContext("2d");
+
+  // Draw a dark green square, side 70
+  context.beginPath();
+  context.fillStyle = 'darkgreen';
+  context.fillRect(130, 105, 70, 70);
+  context.closePath();
+   // Draw a linen triangle
+  context.beginPath();
+  context.fillStyle = 'linen';
+  context.beginPath();
+  context.moveTo(270, 105);
+  context.lineTo(235, 175);
+  context.lineTo(310, 175);
+  context.fill();
+  context.closePath();
+</script>
+      <h3 style=" color:linen;text-align:center;margin-left:20px;">Session 12 - Internet Fundamentals/JavaScript</h3>
+    <p style=" color:linen;margin-left:30px;">
+      Session 12 Summary.
+    </p>
+  </body>
+</html>
