@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Assignment 14 - Summary</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Assignment 14 - Summary</h1>
+    <h2>Session 14 - Internet Fundamentals/Databases and Information</h2>
+    <h3>Activity 1:SQL Activity Examples</h3>
+    <p>
+        In this activity, I learned essential SQL statements, including SELECT, WHERE, COUNT(), INSERT INTO, and UPDATE. By practicing interactive exercises, I gained hands-on experience in querying, filtering, counting, inserting, and updating data. This enhanced my understanding of SQL syntax and functionality for practical application.
+        In this activity, I will be able to apply essential SQL statements for managing data efficiently in my current work environment. By querying, filtering, and updating data, I can extract insights, generate reports, and collaborate effectively with colleagues, enhancing workflow efficiency and supporting decision-making processes in my organization.
+    </p>
+    <h2>Single-table SELECT statements</h2>
+    <p>SQL SELECT Statement</p>
+    <ul style="list-style-type: none;">
+    <li>
+        SELECT * FROM Customers;
+    </li>
+    </ul>
+    <p>SQL WHERE clause</p>
+    <ul style="list-style-type: none;">
+    <li>
+        SELECT * FROM Customers
+        WHERE Country='USA';</li>
+    </ul>
+    <p>SQL COUNT Function</p>
+    <ul style="list-style-type: ;">
+    <li>
+        SELECT COUNT(*)
+        FROM Products;</li>
+    </ul>
+    <p>INSERT INTO Statement</p>
+    <ul style="list-style-type: ;">
+    <li>
+        INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+        VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');</li>
+    </ul>
+    <p>UPDATE Statement</p>
+    <ul style="list-style-type: ;">
+    <li>
+     UPDATE Customers
+     SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+     WHERE CustomerID = 1;</li>
+    </ul>
+  </body>
+</html>
