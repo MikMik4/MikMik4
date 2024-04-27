@@ -1,10 +1,10 @@
 body { 
   background-color:olivegreen; 
 } 
-h1{ 
+h1 { 
 color:darkgreen;margin-left:30px
 } 
-h2{
+h2 {
   color:darkgreen;margin-left:30px
 }
 h3{
@@ -16,6 +16,6 @@ audio {
 ul {
 color: linen;margin-left: 30px;
 }
-p{
+p {
   color: linen;margin-left: 30px;
 }
